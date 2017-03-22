@@ -10,6 +10,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @ImportResource(locations = "classpath*:context.xml")
+@EnableAutoConfiguration
+@ComponentScan({"com"})
 public class DemoApplication {
 
 	public static void main(String[] args) {

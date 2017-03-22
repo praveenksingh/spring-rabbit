@@ -28,4 +28,11 @@ public class MessageController {
         messageSender.sendMessage(message);
         return "200";
     }
+
+//    @RequestMapping(method = POST)
+//    public String checkMessage(@RequestBody String message) {
+//        LOGGER.info("Inside controller");
+//        messageSender.sendMessage(message);
+//        return "200";
+//    }
 }
